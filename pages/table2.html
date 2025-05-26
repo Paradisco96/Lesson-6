@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parent Table</title>
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+  <h1>Table 2</h1>
+  <table class="table1-2 table2">
+    <caption>Parent</caption>
+    <tr>
+      <td class="td1-2_2" colspan="2">1+2</td>
+      <td class="td3_2">3</td>
+    </tr>
+
+    <tr>
+      <td class="td4_2">4</td>
+      <td colspan="2" rowspan="2" class="td5-6-8-9_2">
+
+        <table class="table1-2 table2-child">
+          <caption>Child</caption>
+          <tr>
+            <td class="td1-child">1</td>
+            <td rowspan="3">2+5+8</td>
+            <td class="td3-6-child" rowspan="2">3+6</td>
+          </tr>
+          <tr>
+            <td class="td4-7-child" rowspan="2">4+7</td>
+          </tr>
+          <tr>
+            <td class="td9-child">9</td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+    <tr>
+      <td class="td7_2">7</td>
+    </tr>
+
+  </table>
+</body>
+
+
+</html>
