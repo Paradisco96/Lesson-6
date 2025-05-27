@@ -12,10 +12,10 @@ body {
   align-items: center;
   font-family: 'Geo', sans-serif;
 }
-.box{
+.box {
   width: 20vw;
 }
-.section{
+.section {
   padding: 20px;
   background: rgba(198, 220, 241, 0.3);
   border-radius: 15px;
@@ -28,10 +28,10 @@ body {
   justify-content: center;
   align-items: center;
 }
-.section-title{
+.section-title {
   margin: 0 0 10px;
 }
-.button{
+.button {
   width: 100%;
   padding: 10px;
   background-color: rgb(0, 0, 0);
@@ -49,7 +49,7 @@ body {
   margin-bottom: 10px;
 }
 
-/* Mondrian page*/
+/* Mondrian page */
 .content-box{
   display: flex;
   flex-direction: column;
@@ -189,40 +189,40 @@ td{
   border: 1px solid rgb(0, 0, 0);
 }
 
-.table1{
+.table1 {
   width: 75%;
 }
 .td1-4-7, .td2, .td3 {
   width: 33.33%;
 }
-.td5-6{
+.td5-6 {
   height: 200px;
 }
-.td2, .td3, .td8, .td9{
+.td2, .td3, .td8, .td9 {
   height: 50px;
 }
 
 
 /* Table 2*/
-.table2{
+.table2 {
   width: 90%;
 }
-.td1-2_2{
+.td1-2_2 {
   width: 40%;
   height: 50px;
 }
-.td3_2{
+.td3_2 {
   height: 50px;
   width: 60%;
 }
-.td1-2_2{
+.td1-2_2 {
   height: 50px;
 }
-.td4_2{
+.td4_2 {
   width: 28%;
   height: 50px;
 }
-.td5-6-8-9_2{
+.td5-6-8-9_2 {
   width: 72%;
 }
 .td7_2{
@@ -230,22 +230,22 @@ td{
 }
 
 /* Child table */
-.table2-child{
+.table2-child {
   width: 80%;
   margin: 20px auto;
 }
-.td3-6-child, .td4-7-child{
+.td3-6-child, .td4-7-child {
   height: 200px;
   width: 33.33%;
 }
-.td1-child{
+.td1-child {
   width: 33.33%;
   height: 50px;
 }
-.td3-6-child{
+.td3-6-child {
   width: 33.33%;
 }
-.td9-child{
+.td9-child {
   height: 50px;
   width: 33.33%;
   height: 50px;
